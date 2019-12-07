@@ -2,7 +2,7 @@ An improved model of the train siding.
 This model adds semaphores that can switch their state. Obviously, if they just did that, we would have another collision.
 So this model adds changing of one of the switches as well so the trains can avoid each other.
 This shows that the deadlock is solved, but now we have the problem that our temporal property "CrossingSuccessful" is violated as 
-switch 2 is never changes.
+switch 2 is never changed.
 ---------------------------- MODULE 03_TrainSiding_ChangingSemaphores ----------------------------
 VARIABLES t1, t2, s1, s2, s3, s4, sw1, sw2
 
